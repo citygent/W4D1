@@ -10,7 +10,7 @@ class Dinosaur
   end
 
   def to_s
-    "#{dino_name}-#{dino_species} (#{dino_gender}, #{dino_age}) is checked in. Make sure you have their #{dino_toys}!"
+    "#{dino_name}-#{dino_species} (#{dino_gender}, #{dino_age}) is checked in. Make sure you have #{dino_toys}!"
   end
 
 end
